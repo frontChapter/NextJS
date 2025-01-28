@@ -1,53 +1,16 @@
 import { Marquee } from "./marquee";
 import TweetCard from "./tweet-card";
-
-const reviews = [
-  {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://avatar.vercel.sh/jack",
-  },
-  {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://avatar.vercel.sh/jill",
-  },
-  {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/john",
-  },
-  {
-    name: "Jane",
-    username: "@jane",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jane",
-  },
-  {
-    name: "Jenny",
-    username: "@jenny",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jenny",
-  },
-  {
-    name: "James",
-    username: "@james",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/james",
-  },
-];
+import { tweetsData } from "@/data/tweets";
 
 const TweetSection = () => {
-  const firstRow = reviews.slice(0, reviews.length / 2);
-  const secondRow = reviews.slice(reviews.length / 2);
+  const firstRow = tweetsData.slice(0, tweetsData.length / 2);
+  const secondRow = tweetsData.slice(tweetsData.length / 2);
 
   return (
-    <div>
-      <h2 className="text-center text-2xl">
-        درمورد <span>فرانت چپتر</span> چی میگن؟
+    <div className="container mx-auto max-w-6xl">
+      <h2 className="mb-14 mt-28 text-center text-4xl font-bold">
+        درمورد <span className="text-orange-500">فرانت چپتر</span> چی
+        می&#8202;گن؟
       </h2>
       <div className="relative flex w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-background md:shadow-xl">
         <Marquee reverse pauseOnHover className="[--duration:20s]">
