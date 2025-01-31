@@ -1,5 +1,6 @@
+import { FaqDataType } from "./faqData.d.ts";
 
-export const accordionData = [
+export const faqData:FaqDataType[] = [
   {
     id: "item-1",
     trigger: "Why building a great landing page is critical for your business?",
@@ -52,4 +53,4 @@ export const accordionData = [
   }
 ];
 
-export default accordionData;
+export default faqData;
