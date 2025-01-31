@@ -2,10 +2,6 @@ import { speakerInfoType } from "../types";
 import Image from "next/image";
 
 const Speaker = ({ speakerInfo }: { speakerInfo: speakerInfoType }) => {
-  {
-    /* TODO: replace hard coded styles with global props */
-  }
-
   const { name, role, company, imageUrl } = speakerInfo;
   return (
     <div className="speaker-card flex w-[138px] flex-col gap-[12px]">
