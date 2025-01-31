@@ -6,7 +6,7 @@ import {
 } from "../../../components/ui/accordion";
 import { Section } from "../../../components/ui/section";
 import { faqData } from "../../../configs/FAQ/faqData";
-import { FaqDataType } from "../../../configs/FAQ/faqData.d";
+import { FAQDataType } from "../../../configs/FAQ/faqData.d";
 
 export default function FAQ() {
   return (
@@ -16,7 +16,7 @@ export default function FAQ() {
           سوالات متداول
         </h2>
         <Accordion type="single" collapsible className="w-full max-w-[800px]">
-          {faqData.map(({ id, trigger, content }: FaqDataType) => (
+          {faqData.map(({ id, trigger, content }: FAQDataType) => (
             <AccordionItem key={id} value={`item-${id}`}>
               <AccordionTrigger>{trigger}</AccordionTrigger>
               <AccordionContent>
