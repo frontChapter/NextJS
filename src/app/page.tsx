@@ -1,4 +1,4 @@
-import Speakers from "@/components/sections/speakers/Speakers";
+import Speakers from "./components/speakers/Speakers";
 
 export default function Home() {
   return (
