@@ -1,6 +1,6 @@
 import { FaqDataType } from "./faqData.d.ts";
 
-export const faqData:FaqDataType[] = [
+export const faqData : FaqDataType[] = [
   {
     id: "item-1",
     trigger: "Why building a great landing page is critical for your business?",
