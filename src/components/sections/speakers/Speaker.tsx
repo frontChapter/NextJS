@@ -20,7 +20,7 @@ const Speaker = ({ speakerInfo }: { speakerInfo: speakerInfoType }) => {
           }}
         />
         {/* Black Background */}
-        <div className="absolute inset-[1px] z-0 rounded-md bg-[#09090B]" />
+        <div className="absolute inset-[1px] z-0 rounded-md bg-background" />
 
         <Image
           src={imageUrl ?? null}
@@ -33,7 +33,7 @@ const Speaker = ({ speakerInfo }: { speakerInfo: speakerInfoType }) => {
       {/* info section*/}
       <div className="info-wrapper flex flex-col items-center font-[400]">
         {/* speaker name*/}
-        <span className="text-[20px] text-[#FAFAFA]">{name}</span>
+        <span className="text-[20px]">{name}</span>
         {/* speaker role (stack)*/}
         <span className="w-max text-[16px] text-[#A1A1AA]">{role}</span>
         {/* speaker company details */}
