@@ -1,5 +1,5 @@
 import Speaker from "./Speaker";
-import { speakersData } from "@/data/speakers";
+import { speakersData } from "@/configs/speakers";
 
 const Speakers = () => {
   {
