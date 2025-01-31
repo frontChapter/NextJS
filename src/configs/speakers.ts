@@ -5,82 +5,82 @@ export const speakersData: speakerInfoType[] = [
   {
     name: "پوریا باباعلی",
     role: "توسعده دهنده فرانت اند",
-    imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.svg",
+    imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.webp",
     company: {
       name: "رسمیو",
-      logo: "/images/speakers/company-logo/rasmio.svg",
+      logo: "/images/speakers/company-logo/rasmio.png",
     },
   },
   {
     name: "پوریا باباعلی",
     role: "توسعده دهنده فرانت اند",
-    imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.svg",
+    imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.webp",
     company: {
       name: "رسمیو",
-      logo: "/images/speakers/company-logo/rasmio.svg",
+      logo: "/images/speakers/company-logo/rasmio.png",
     },
   },
   {
     name: "پوریا باباعلی",
     role: "توسعده دهنده فرانت اند",
-    imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.svg",
+    imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.webp",
     company: {
       name: "رسمیو",
-      logo: "/images/speakers/company-logo/rasmio.svg",
+      logo: "/images/speakers/company-logo/rasmio.png",
     },
   },
   {
     name: "پوریا باباعلی",
     role: "توسعده دهنده فرانت اند",
-    imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.svg",
+    imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.webp",
     company: {
       name: "رسمیو",
-      logo: "/images/speakers/company-logo/rasmio.svg",
+      logo: "/images/speakers/company-logo/rasmio.png",
     },
   },
   {
     name: "پوریا باباعلی",
     role: "توسعده دهنده فرانت اند",
-    imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.svg",
+    imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.webp",
     company: {
       name: "رسمیو",
-      logo: "/images/speakers/company-logo/rasmio.svg",
+      logo: "/images/speakers/company-logo/rasmio.png",
     },
   },
   {
     name: "پوریا باباعلی",
     role: "توسعده دهنده فرانت اند",
-    imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.svg",
+    imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.webp",
     company: {
       name: "رسمیو",
-      logo: "/images/speakers/company-logo/rasmio.svg",
+      logo: "/images/speakers/company-logo/rasmio.png",
     },
   },
   {
     name: "پوریا باباعلی",
     role: "توسعده دهنده فرانت اند",
-    imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.svg",
+    imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.webp",
     company: {
       name: "رسمیو",
-      logo: "/images/speakers/company-logo/rasmio.svg",
+      logo: "/images/speakers/company-logo/rasmio.png",
     },
   },
   {
     name: "پوریا باباعلی",
     role: "توسعده دهنده فرانت اند",
-    imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.svg",
+    imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.webp",
     company: {
       name: "رسمیو",
-      logo: "/images/speakers/company-logo/rasmio.svg",
+      logo: "/images/speakers/company-logo/rasmio.png",
     },
   },
   {
     name: "پوریا باباعلی",
     role: "توسعده دهنده فرانت اند",
-    imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.svg",
+    imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.webp",
     company: {
       name: "رسمیو",
-      logo: "/images/speakers/company-logo/rasmio.svg",
+      logo: "/images/speakers/company-logo/rasmio.png",
     },
   },
 ];
