@@ -45,7 +45,7 @@ const Speaker = ({ speakerInfo }: { speakerInfo: speakerInfoType }) => {
               height={100}
               src={company.logo ?? null}
               alt={company.name}
-              className="w-[20px] border-[1px] border-[#FFFFFF1A]"
+              className="w-[20px] rounded-[2px] border-[1px] border-[#FFFFFF1A] p-[2px]"
             />
             <span className="text-[14px] font-[500]">{company.name}</span>
           </div>
