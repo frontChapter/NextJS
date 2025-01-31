@@ -40,13 +40,15 @@ const Speaker = ({ speakerInfo }: { speakerInfo: speakerInfoType }) => {
         <div className="mt-[12px] flex items-center gap-[16px]">
           <span className="text-[16px]">در</span>
           <div className="flex items-center gap-[4px]">
-            <Image
-              width={100}
-              height={100}
-              src={company.logo ?? null}
-              alt={company.name}
-              className="w-[28px] rounded-[2px] border-[1px] border-[#FFFFFF1A] p-[2px]"
-            />
+            <div className="flex h-[28px] w-[28px] items-center justify-center rounded-[2px] border-[1px] border-[#FFFFFF1A] p-[2px]">
+              <Image
+                width={100}
+                height={100}
+                src={company.logo ?? null}
+                alt={company.name}
+                className="w-[20px]"
+              />
+            </div>
             <span className="text-[14px] font-[500]">{company.name}</span>
           </div>
         </div>
