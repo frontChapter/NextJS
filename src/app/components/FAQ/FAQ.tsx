@@ -3,8 +3,8 @@ import {
   AccordionItem,
   AccordionTrigger,
   AccordionContent,
-} from "../../ui/accordion";
-import { Section } from "../../ui/section";
+} from "../../../components/ui/accordion";
+import { Section } from "../../../components/ui/section";
 import { faqData } from "../../../configs/FAQ/faqData";
 
 export default function FAQ() {

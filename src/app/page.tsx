@@ -1,4 +1,4 @@
-import FAQ from "@/components/sections/FAQ/FAQ";
+import FAQ from "@/app/components/FAQ/FAQ";
 
 export default function Home() {
   return (
