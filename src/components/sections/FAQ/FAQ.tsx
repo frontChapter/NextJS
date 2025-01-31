@@ -5,7 +5,7 @@ import {
   AccordionContent,
 } from "../../ui/accordion";
 import { Section } from "../../ui/section";
-import { faqData } from "../../../configs/faq/faqData";
+import { faqData } from "../../../configs/FAQ/faqData";
 
 export default function FAQ() {
   return (
