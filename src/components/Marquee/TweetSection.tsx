@@ -1,5 +1,5 @@
-import { Marquee } from "./marquee";
-import TweetCard from "./tweet-card";
+import { Marquee } from "./Marquee";
+import TweetCard from "./TweetCard";
 import { tweetsData } from "@/data/tweets";
 
 const TweetSection = () => {

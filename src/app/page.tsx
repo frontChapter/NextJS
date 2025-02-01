@@ -1,4 +1,4 @@
-import TweetSection from "@/components/Marquee/tweet-section";
+import TweetSection from "@/components/Marquee/TweetSection";
 
 export default function Home() {
   return (
