@@ -1,4 +1,4 @@
-import { speakerInfoType } from "./types";
+import { speakerInfoType } from "./Speakers.types";
 import Image from "next/image";
 
 const Speaker = ({ speakerInfo }: { speakerInfo: speakerInfoType }) => {

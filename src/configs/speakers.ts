@@ -1,4 +1,4 @@
-import { speakerInfoType } from "@/components/sections/types";
+import { speakerInfoType } from "../app/components/speakers/Speakers.types";
 
 export const speakersData: speakerInfoType[] = [
   // all data will be replaced/removed with actual data
