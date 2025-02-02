@@ -66,6 +66,11 @@
   }
 }
 
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
+
 @layer base {
   * {
     @apply border-border;
