@@ -4,7 +4,7 @@ export const speakersData: speakerInfoType[] = [
   // all data will be replaced/removed with actual data
   {
     name: "پوریا باباعلی",
-    role: "توسعده دهنده فرانت اند",
+    role: "توسعده دهنده فرانت‌اند",
     imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.webp",
     company: {
       name: "رسمیو",
@@ -13,7 +13,7 @@ export const speakersData: speakerInfoType[] = [
   },
   {
     name: "پوریا باباعلی",
-    role: "توسعده دهنده فرانت اند",
+    role: "توسعده دهنده فرانت‌اند",
     imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.webp",
     company: {
       name: "رسمیو",
@@ -22,7 +22,7 @@ export const speakersData: speakerInfoType[] = [
   },
   {
     name: "پوریا باباعلی",
-    role: "توسعده دهنده فرانت اند",
+    role: "توسعده دهنده فرانت‌اند",
     imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.webp",
     company: {
       name: "رسمیو",
@@ -31,7 +31,7 @@ export const speakersData: speakerInfoType[] = [
   },
   {
     name: "پوریا باباعلی",
-    role: "توسعده دهنده فرانت اند",
+    role: "توسعده دهنده فرانت‌اند",
     imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.webp",
     company: {
       name: "رسمیو",
@@ -40,7 +40,7 @@ export const speakersData: speakerInfoType[] = [
   },
   {
     name: "پوریا باباعلی",
-    role: "توسعده دهنده فرانت اند",
+    role: "توسعده دهنده فرانت‌اند",
     imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.webp",
     company: {
       name: "رسمیو",
@@ -49,7 +49,7 @@ export const speakersData: speakerInfoType[] = [
   },
   {
     name: "پوریا باباعلی",
-    role: "توسعده دهنده فرانت اند",
+    role: "توسعده دهنده فرانت‌اند",
     imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.webp",
     company: {
       name: "رسمیو",
@@ -58,7 +58,7 @@ export const speakersData: speakerInfoType[] = [
   },
   {
     name: "پوریا باباعلی",
-    role: "توسعده دهنده فرانت اند",
+    role: "توسعده دهنده فرانت‌اند",
     imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.webp",
     company: {
       name: "رسمیو",
@@ -67,7 +67,7 @@ export const speakersData: speakerInfoType[] = [
   },
   {
     name: "پوریا باباعلی",
-    role: "توسعده دهنده فرانت اند",
+    role: "توسعده دهنده فرانت‌اند",
     imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.webp",
     company: {
       name: "رسمیو",
@@ -76,7 +76,7 @@ export const speakersData: speakerInfoType[] = [
   },
   {
     name: "پوریا باباعلی",
-    role: "توسعده دهنده فرانت اند",
+    role: "توسعده دهنده فرانت‌اند",
     imageUrl: "/images/speakers/profile-picture/pooria-baba-ali.webp",
     company: {
       name: "رسمیو",
