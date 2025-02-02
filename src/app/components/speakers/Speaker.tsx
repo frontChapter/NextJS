@@ -31,10 +31,10 @@ const Speaker = ({ speakerInfo }: { speakerInfo: speakerInfoType }) => {
         {/* speaker name*/}
         <span className="text-[20px]">{name}</span>
         {/* speaker role (stack)*/}
-        <span className="w-max text-[16px] text-[#A1A1AA]">{role}</span>
+        <span className="w-max text-[16px] text-mutedForeground">{role}</span>
         {/* speaker company details */}
         <div className="mt-[12px] flex items-center gap-[16px]">
-          <span className="text-[16px]">در</span>
+          <span className="text-[16px] text-mutedForeground">در</span>
           <div className="flex items-center gap-[4px]">
             <div className="flex h-[28px] w-[28px] items-center justify-center rounded-[2px] border-[1px] border-[#FFFFFF1A] p-[2px]">
               <Image
