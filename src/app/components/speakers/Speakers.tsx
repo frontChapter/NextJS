@@ -8,7 +8,7 @@ const Speakers = () => {
       className="flex flex-col items-center gap-12 px-[32px] py-20"
     >
       <h3 className="text-center text-[48px] font-[800]">سخنرانان همایش</h3>
-      <div className="speakers-wrapper flex max-w-[1080px] flex-wrap justify-center gap-[20px]">
+      <div className="speakers-wrapper flex max-w-[1080px] flex-wrap justify-center gap-x-[30px] gap-y-[20px]">
         {speakersData.map((info, idx) => (
           <Speaker key={idx} speakerInfo={info} />
         ))}
