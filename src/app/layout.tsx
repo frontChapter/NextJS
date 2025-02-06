@@ -25,7 +25,7 @@ export default function RootLayout({
       style={{ colorScheme: "dark" }}
       className={`dark ${danaVF.className}`}
     >
-      <body className="antialiased">
+      <body className="bg-background antialiased">
         <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
