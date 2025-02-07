@@ -173,6 +173,7 @@ export default {
       },
       spacing: {
         container: "1280px",
+        "8": "32px",
         "12": "48px",
         "20": "80px",
         "24": "96px",
