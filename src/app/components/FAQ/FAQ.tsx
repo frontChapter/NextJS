@@ -11,7 +11,7 @@ import { FAQDataType } from "../../../configs/FAQ/faqData.d";
 export default function FAQ() {
   return (
     <Section>
-      <div className="mx-auto flex max-w-container flex-col items-center gap-8">
+      <div className="mx-auto flex max-w-container flex-col items-center gap-12">
         <h2 className="text-center text-3xl font-semibold sm:text-5xl">
           سوالات متداول
         </h2>
