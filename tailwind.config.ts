@@ -173,6 +173,7 @@ export default {
       },
       spacing: {
         container: "1280px",
+        "12": "48px",
       },
       boxShadow: {
         "glow-sm": "0 0 16px 0 hsla(var(--foreground) / 0.08) inset",
