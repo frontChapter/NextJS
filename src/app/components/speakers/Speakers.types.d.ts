@@ -5,5 +5,6 @@ export interface speakerInfoType {
   company: {
     logo: string;
     name: string;
+    websiteLink: string;
   };
 }

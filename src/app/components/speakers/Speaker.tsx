@@ -35,7 +35,11 @@ const Speaker = ({ speakerInfo }: { speakerInfo: speakerInfoType }) => {
         {/* speaker company details */}
         <div className="mt-[12px] flex items-center gap-[16px]">
           <span className="text-[16px] text-mutedForeground">در</span>
-          <div className="flex items-center gap-[4px]">
+          <a
+            href={company.websiteLink}
+            target="_blank"
+            className="flex items-center gap-[4px]"
+          >
             <div className="flex h-[28px] w-[28px] items-center justify-center rounded-[2px] border-[1px] border-[#FFFFFF1A] p-[2px]">
               <Image
                 width={100}
@@ -46,7 +50,7 @@ const Speaker = ({ speakerInfo }: { speakerInfo: speakerInfoType }) => {
               />
             </div>
             <span className="text-[14px] font-[500]">{company.name}</span>
-          </div>
+          </a>
         </div>
       </div>
     </div>

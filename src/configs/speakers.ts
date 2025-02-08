@@ -8,6 +8,7 @@ export const speakersData: speakerInfoType[] = [
     company: {
       name: " کارگزاری مفید",
       logo: "/images/speakers/company-logo/mofid.png",
+      websiteLink: "https://www.emofid.com/",
     },
   },
   {
@@ -17,6 +18,7 @@ export const speakersData: speakerInfoType[] = [
     company: {
       name: "تپسل",
       logo: "/images/speakers/company-logo/tapsell.png",
+      websiteLink: "https://tapsell.com/",
     },
   },
   {
@@ -26,6 +28,7 @@ export const speakersData: speakerInfoType[] = [
     company: {
       name: "کوئرا",
       logo: "/images/speakers/company-logo/quera.png",
+      websiteLink: "https://quera.org/",
     },
   },
   {
@@ -35,6 +38,7 @@ export const speakersData: speakerInfoType[] = [
     company: {
       name: "TinyLibs",
       logo: "/images/speakers/company-logo/tiny-libs.png",
+      websiteLink: "https://tinylibs.github.io/",
     },
   },
   {
@@ -44,6 +48,7 @@ export const speakersData: speakerInfoType[] = [
     company: {
       name: "رسمیو",
       logo: "/images/speakers/company-logo/rasmio.png",
+      websiteLink: "https://rasmio.com/",
     },
   },
 
@@ -54,6 +59,7 @@ export const speakersData: speakerInfoType[] = [
     company: {
       name: "Bazaro",
       logo: "/images/speakers/company-logo/bazaro.png",
+      websiteLink: "https://www.bazaro.se/",
     },
   },
 ];
