@@ -1,4 +1,4 @@
-import { FAQDataType } from "./faqData.d";
+import { FAQDataType } from "@/app/components/FAQ/faqData";
 
 export const faqData: FAQDataType[] = [
   {
