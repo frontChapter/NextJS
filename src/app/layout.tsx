@@ -31,7 +31,7 @@ export default function RootLayout({
       lang="fa-IR"
       dir="rtl"
       style={{ colorScheme: "dark" }}
-      className={`dark ${danaVF.variable}`}
+      className={`dark ${danaVF.className}`}
     >
       <body className="bg-background antialiased">
         <ThemeProvider>{children}</ThemeProvider>
