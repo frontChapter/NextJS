@@ -1,6 +1,6 @@
-import { speakerInfoType } from "../app/components/speakers/Speakers.types";
+import type { ISpeakerPerson as ISpeakerInfo } from "../app/components/speakers/Speakers.d";
 
-export const speakersData: speakerInfoType[] = [
+export const speakersData: ISpeakerInfo[] = [
   {
     name: "عرفان عباسی",
     role: "مدیر فنی",
