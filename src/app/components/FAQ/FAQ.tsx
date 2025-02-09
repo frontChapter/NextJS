@@ -16,8 +16,8 @@ export default function FAQ() {
           سوالات متداول
         </h2>
         <Accordion type="single" collapsible className="w-full max-w-[800px]">
-          {faqData.map(({ id, trigger, content }: FAQDataType) => (
-            <AccordionItem key={id} value={`item-${id}`}>
+          {faqData.map(({ trigger, content }: FAQDataType, index) => (
+            <AccordionItem key={index} value={`item-${index}`}>
               <AccordionTrigger className="text-[16px] font-medium text-card-foreground">
                 {trigger}
               </AccordionTrigger>
