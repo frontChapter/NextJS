@@ -1,4 +1,4 @@
-export interface speakerInfoType {
+export interface ISpeaker {
   imageUrl: string;
   role: string;
   name: string;
