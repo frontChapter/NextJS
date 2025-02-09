@@ -1,12 +1,12 @@
+import { FAQDataType } from "./faqData";
 import {
   Accordion,
   AccordionItem,
   AccordionTrigger,
   AccordionContent,
-} from "../../../components/ui/accordion";
-import { Section } from "../../../components/ui/section";
-import { faqData } from "../../../configs/FAQ/faqData";
-import { FAQDataType } from "../../../configs/FAQ/faqData.d";
+} from "@/components/ui/accordion";
+import { Section } from "@/components/ui/section";
+import { faqData } from "@/configs/faqData";
 
 export default function FAQ() {
   return (
@@ -18,7 +18,9 @@ export default function FAQ() {
         <Accordion type="single" collapsible className="w-full max-w-[800px]">
           {faqData.map(({ id, trigger, content }: FAQDataType) => (
             <AccordionItem key={id} value={`item-${id}`}>
-              <AccordionTrigger className="text-[16px] text-card-foreground font-medium" >{trigger}</AccordionTrigger>
+              <AccordionTrigger className="text-[16px] font-medium text-card-foreground">
+                {trigger}
+              </AccordionTrigger>
               <AccordionContent>
                 {content.map((paragraph, index) => (
                   <p
