@@ -12,13 +12,13 @@ export default function FAQ() {
   return (
     <Section>
       <div className="mx-auto flex max-w-container flex-col items-center gap-12">
-        <h2 className="text-center text-3xl font-semibold sm:text-5xl">
+        <h2 className="text-center text-3xl font-semibold text-foreground sm:text-5xl">
           سوالات متداول
         </h2>
         <Accordion type="single" collapsible className="w-full max-w-[800px]">
           {faqData.map(({ id, trigger, content }: FAQDataType) => (
             <AccordionItem key={id} value={`item-${id}`}>
-              <AccordionTrigger>{trigger}</AccordionTrigger>
+              <AccordionTrigger className="text-[16px] text-card-foreground font-medium" >{trigger}</AccordionTrigger>
               <AccordionContent>
                 {content.map((paragraph, index) => (
                   <p
