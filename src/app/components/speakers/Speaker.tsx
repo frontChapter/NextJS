@@ -1,7 +1,7 @@
-import { ISpeaker } from "./Speakers.types";
+import type { ISpeakerInfo } from "./Speakers.d";
 import Image from "next/image";
 
-const Speaker = ({ speakerInfo }: { speakerInfo: ISpeaker }) => {
+const Speaker = ({ speakerInfo }: { speakerInfo: ISpeakerInfo }) => {
   const { name, role, company, imageUrl } = speakerInfo;
   return (
     <div className="speaker-card flex w-[138px] flex-col gap-[12px]">
