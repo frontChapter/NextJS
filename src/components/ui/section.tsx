@@ -7,7 +7,10 @@ const Section = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <section
     ref={ref}
-    className={cn("bg-background px-4 md:px-8 py-20 text-foreground", className)}
+    className={cn(
+      "bg-background px-4 py-20 text-foreground dark:bg-background-dark dark:text-foreground-dark md:px-8",
+      className,
+    )}
     {...props}
   />
 ));
