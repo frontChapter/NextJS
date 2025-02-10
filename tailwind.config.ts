@@ -10,86 +10,121 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "hsl(var(--background))",
-        foreground: "hsl(var(--foreground))",
+        background: {
+          DEFAULT: "hsl(0 0% 100%)",
+          dark: "hsl(240 10% 3.9%)",
+        },
+        foreground: {
+          DEFAULT: "hsl(240 10% 3.9%)",
+          dark: "hsl(0 0% 98%)",
+        },
         card: {
-          DEFAULT: "hsl(var(--card) / 0.2)",
-          foreground: "hsl(var(--card-foreground))",
+          DEFAULT: "hsl(0 0% 100% / 0.2)",
+          dark: "hsl(240 3.7% 15.9% / 0.2)",
+          foreground: {
+            DEFAULT: "hsl(240 10% 3.9%)",
+            dark: "hsl(0 0% 98%)",
+          },
         },
         popover: {
-          DEFAULT: "hsl(var(--popover))",
-          foreground: "hsl(var(--popover-foreground))",
+          DEFAULT: "hsl(0 0% 100%)",
+          dark: "hsl(240 10% 3.9%)",
+          foreground: {
+            DEFAULT: "hsl(240 10% 3.9%)",
+            dark: "hsl(0 0% 98%)",
+          },
         },
         primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
+          DEFAULT: "hsl(240 5.9% 10%)",
+          dark: "hsl(0 0% 98%)",
+          foreground: {
+            DEFAULT: "hsl(0 0% 98%)",
+            dark: "hsl(240 5.9% 10%)",
+          },
         },
         secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
+          DEFAULT: "hsl(240 4.8% 95.9%)",
+          dark: "hsl(240 3.7% 15.9%)",
+          foreground: {
+            DEFAULT: "hsl(240 5.9% 10%)",
+            dark: "hsl(0 0% 98%)",
+          },
         },
         muted: {
-          DEFAULT: "hsl(var(--muted))",
-          foreground: "hsl(var(--muted-foreground) / 0.6)",
+          DEFAULT: "hsl(240 4.8% 95.9%)",
+          dark: "hsl(240 3.7% 15.9%)",
+          foreground: {
+            DEFAULT: "hsl(240 10% 3.9% / 0.6)",
+            dark: "hsl(0 0% 98% / 0.6)",
+          },
         },
         accent: {
-          DEFAULT: "hsl(var(--accent) / 0.15)",
-          foreground: "hsl(var(--accent-foreground))",
+          DEFAULT: "hsl(240 5% 64.9% / 0.15)",
+          dark: "hsl(0 0% 98% / 0.15)",
+          foreground: {
+            DEFAULT: "hsl(240 5.9% 10%)",
+            dark: "hsl(0 0% 98%)",
+          },
         },
         destructive: {
-          DEFAULT: "hsl(var(--destructive))",
-          foreground: "hsl(var(--destructive-foreground))",
+          DEFAULT: "hsl(0 72.22% 50.59%)",
+          dark: "hsl(0 62.8% 30.6%)",
+          foreground: {
+            DEFAULT: "hsl(0 0% 98%)",
+            dark: "hsl(0 85.7% 97.3%)",
+          },
         },
-        border: "hsl(var(--border) / 0.1)",
-        input: "hsl(var(--input))",
-        ring: "hsl(var(--ring))",
+        border: {
+          DEFAULT: "hsl(240 5.2% 33.9% / 0.1)",
+          dark: "hsl(0 0% 98% / 0.1)",
+        },
+        input: {
+          DEFAULT: "hsl(240 5.9% 90%)",
+          dark: "hsl(240 3.7% 15.9%)",
+        },
+        ring: {
+          DEFAULT: "hsl(240 5% 64.9%)",
+          dark: "hsl(240 4.9% 83.9%)",
+        },
         chart: {
-          "1": "hsl(var(--chart-1))",
-          "2": "hsl(var(--chart-2))",
-          "3": "hsl(var(--chart-3))",
-          "4": "hsl(var(--chart-4))",
-          "5": "hsl(var(--chart-5))",
+          1: { DEFAULT: "hsl(12 76% 61%)", dark: "hsl(220 70% 50%)" },
+          2: { DEFAULT: "hsl(173 58% 39%)", dark: "hsl(160 60% 45%)" },
+          3: { DEFAULT: "hsl(197 37% 24%)", dark: "hsl(30 80% 55%)" },
+          4: { DEFAULT: "hsl(43 74% 66%)", dark: "hsl(280 65% 60%)" },
+          5: { DEFAULT: "hsl(27 87% 67%)", dark: "hsl(340 75% 55%)" },
         },
         brand: {
-          DEFAULT: "hsl(var(--brand))",
-          foreground: "hsl(var(--brand-foreground))",
+          DEFAULT: "hsl(27 96% 61%)",
+          dark: "hsl(31 97% 72%)",
+          foreground: {
+            DEFAULT: "hsl(31 97% 72%)",
+            dark: "hsl(27 96% 61%)",
+          },
         },
       },
       borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
-        "2xl": "calc(var(--radius) + 4px)",
-        xl: "calc(var(--radius) + 2px)",
+        lg: "0.5rem",
+        md: "calc(0.5rem - 2px)",
+        sm: "calc(0.5rem - 4px)",
+        "2xl": "calc(0.5rem + 4px)",
+        xl: "calc(0.5rem + 2px)",
       },
       fontFamily: {
-        code: ["var(--font-mono)"],
-        regular: ["var(--font-body)"],
+        code: ["Courier New", "monospace"],
+        regular: ["--font-dana", "Arial", "sans-serif"],
       },
       keyframes: {
         "accordion-down": {
-          from: {
-            height: "0",
-          },
-          to: {
-            height: "var(--radix-accordion-content-height)",
-          },
+          from: { height: "0" },
+          to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
-          from: {
-            height: "var(--radix-accordion-content-height)",
-          },
-          to: {
-            height: "0",
-          },
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0" },
         },
         marquee: {
-          from: {
-            transform: "translateX(0)",
-          },
-          to: {
-            transform: "translateX(calc(-100% - var(--gap)))",
-          },
+          from: { transform: "translateX(0)" },
+          to: { transform: "translateX(calc(-100% - var(--gap)))" },
         },
         appear: {
           "0%": {
@@ -97,9 +132,7 @@ export default {
             transform: "translateY(1rem)",
             filter: "blur(.5rem)",
           },
-          "50%": {
-            filter: "blur(0)",
-          },
+          "50%": { filter: "blur(0)" },
           "100%": {
             opacity: "1",
             transform: "translateY(0)",
@@ -179,9 +212,12 @@ export default {
         "24": "96px",
       },
       boxShadow: {
-        "glow-sm": "0 0 16px 0 hsla(var(--foreground) / 0.08) inset",
-        "glow-md": "0 0 32px 0 hsla(var(--foreground) / 0.08) inset",
-        "glow-lg": "0 0 64px 0 hsla(var(--foreground) / 0.06) inset",
+        "glow-sm": "0 0 16px 0 hsl(240 10% 3.9% / 0.08) inset",
+        "glow-md": "0 0 32px 0 hsl(240 10% 3.9% / 0.08) inset",
+        "glow-lg": "0 0 64px 0 hsl(240 10% 3.9% / 0.06) inset",
+        "dark-glow-sm": "0 0 16px 0 hsl(0 0% 98% / 0.08) inset",
+        "dark-glow-md": "0 0 32px 0 hsl(0 0% 98% / 0.08) inset",
+        "dark-glow-lg": "0 0 64px 0 hsl(0 0% 98% / 0.06) inset",
       },
     },
   },
