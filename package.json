@@ -6,6 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
+    "pump": "commit-and-tag-version",
     "lint": "next lint"
   },
   "dependencies": {
