@@ -1,4 +1,25 @@
 {
-  "projectName": "<insert the repo's name>",
-  "projectOwner": "<insert the repo's owner/orgs>"
+  "projectName": "NextJS",
+  "projectOwner": "frontChapter",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "AmirHosseinKarimi",
+      "name": "Amir Hossein Karimi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17345129?v=4",
+      "profile": "https://github.com/AmirHosseinKarimi",
+      "contributions": [
+        "projectManagement",
+        "infra",
+        "maintenance",
+        "mentoring",
+        "code"
+      ]
+    }
+  ]
 }
