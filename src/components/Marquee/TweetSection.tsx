@@ -7,7 +7,7 @@ const TweetSection = () => {
   const secondRow = tweetsData.slice(tweetsData.length / 2);
 
   return (
-    <div className="container mx-auto max-w-6xl">
+    <div>
       <h2 className="mb-14 mt-28 text-center text-4xl font-bold">
         درمورد <span className="text-orange-500">فرانت چپتر</span> چی
         می&#8202;گن؟
