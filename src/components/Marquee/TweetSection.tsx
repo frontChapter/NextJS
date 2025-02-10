@@ -1,11 +1,8 @@
 import { Marquee } from "./Marquee";
 import TweetCard from "./TweetCard";
-import { tweetsData } from "@/data/tweets";
+import { firstMarqueetweetsData, secondMarqueetweetsData } from "@/data/tweets";
 
 const TweetSection = () => {
-  const firstRow = tweetsData.slice(0, tweetsData.length / 2);
-  const secondRow = tweetsData.slice(tweetsData.length / 2);
-
   return (
     <div>
       <h2 className="mb-14 mt-28 text-center text-4xl font-bold">
@@ -13,14 +10,14 @@ const TweetSection = () => {
         می&#8202;گن؟
       </h2>
       <div className="relative flex w-full flex-col items-center justify-center overflow-hidden rounded-lg bg-background md:shadow-xl">
-        <Marquee reverse pauseOnHover className="[--duration:20s]">
-          {firstRow.map((review) => (
-            <TweetCard key={review.username} {...review} />
+        <Marquee reverse pauseOnHover className="[--duration:50s]">
+          {firstMarqueetweetsData.map((review, index) => (
+            <TweetCard key={index} {...review} />
           ))}
         </Marquee>
-        <Marquee pauseOnHover className="[--duration:20s]">
-          {secondRow.map((review) => (
-            <TweetCard key={review.username} {...review} />
+        <Marquee pauseOnHover className="[--duration:50s]">
+          {secondMarqueetweetsData.map((review, index) => (
+            <TweetCard key={index} {...review} />
           ))}
         </Marquee>
         <div className="pointer-events-none absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-white dark:from-background"></div>

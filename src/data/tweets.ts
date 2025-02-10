@@ -1,4 +1,4 @@
-export const tweetsData = [
+export const firstMarqueetweetsData = [
   {
     name: "صالح شجاعی",
     username: "@felxxbs",
@@ -6,33 +6,66 @@ export const tweetsData = [
     img: "https://avatar.vercel.sh/jack",
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://avatar.vercel.sh/jill",
+    name: "Fabrizio Fernandez",
+    username: "@fab3304",
+    body: "الان رسیدم محل برگزاری همایشحاجی ﺧﻴﻠﯽ ﺧﻔﻨﻪ 😍#frontchapter1402",
+    img: "https://avatar.vercel.sh/jack",
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/john",
+    name: "صالح شجاعی",
+    username: "@felxxbs",
+    body: "رفقا می‌تونید با رزرو زودتر بلیط اقمتگاهتون، راحت‌تر توی همایش شرکت کنید#frontchapter1402",
+    img: "https://avatar.vercel.sh/jack",
   },
   {
-    name: "Jane",
-    username: "@jane",
-    body: "I'm at a loss for words. This is amazing. I love it.",
+    name: "Fabrizio Fernandez",
+    username: "@fab3304",
+    body: "الان رسیدم محل برگزاری همایشحاجی ﺧﻴﻠﯽ ﺧﻔﻨﻪ 😍#frontchapter1402",
+    img: "https://avatar.vercel.sh/jack",
+  },
+  {
+    name: "صالح شجاعی",
+    username: "@felxxbs",
+    body: "رفقا می‌تونید با رزرو زودتر بلیط اقمتگاهتون، راحت‌تر توی همایش شرکت کنید#frontchapter1402",
+    img: "https://avatar.vercel.sh/jack",
+  },
+  {
+    name: "Fabrizio Fernandez",
+    username: "@fab3304",
+    body: "الان رسیدم محل برگزاری همایشحاجی ﺧﻴﻠﯽ ﺧﻔﻨﻪ 😍#frontchapter1402",
+    img: "https://avatar.vercel.sh/jack",
+  },
+];
+
+export const secondMarqueetweetsData = [
+  {
+    name: "Darius Flynn",
+    username: "@flynnn",
+    body: "رفقا می‌تونید با رزرو زودتر بلیط اقمتگاهتون، راحت‌تر توی همایش شرکت کنید#frontchapter1402",
     img: "https://avatar.vercel.sh/jane",
   },
   {
-    name: "Jenny",
-    username: "@jenny",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jenny",
+    name: "Darius Flynn",
+    username: "@flynnn",
+    body: "رفقا می‌تونید با رزرو زودتر بلیط اقمتگاهتون، راحت‌تر توی همایش شرکت کنید#frontchapter1402",
+    img: "https://avatar.vercel.sh/jane",
   },
   {
-    name: "James",
-    username: "@james",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/james",
+    name: "Darius Flynn",
+    username: "@flynnn",
+    body: "رفقا می‌تونید با رزرو زودتر بلیط اقمتگاهتون، راحت‌تر توی همایش شرکت کنید#frontchapter1402",
+    img: "https://avatar.vercel.sh/jane",
+  },
+  {
+    name: "Darius Flynn",
+    username: "@flynnn",
+    body: "رفقا می‌تونید با رزرو زودتر بلیط اقمتگاهتون، راحت‌تر توی همایش شرکت کنید#frontchapter1402",
+    img: "https://avatar.vercel.sh/jane",
+  },
+  {
+    name: "Darius Flynn",
+    username: "@flynnn",
+    body: "رفقا می‌تونید با رزرو زودتر بلیط اقمتگاهتون، راحت‌تر توی همایش شرکت کنید#frontchapter1402",
+    img: "https://avatar.vercel.sh/jane",
   },
 ];
