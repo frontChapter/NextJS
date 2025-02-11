@@ -10,3 +10,19 @@
     @apply bg-background text-foreground dark:bg-background-dark dark:text-foreground-dark;
   }
 }
+.border-gradient {
+  border-width: 1px;
+  border-style: solid;
+  border-image-source: linear-gradient(
+    180deg,
+    rgba(250, 250, 250, 0.2) 0%,
+    rgba(250, 250, 250, 0.05) 16%,
+    rgba(250, 250, 250, 0.05) 86%,
+    rgba(255, 255, 255, 0) 100%
+  );
+
+  border-image-slice: 8;
+  border-radius: 6px;
+  -webkit-mask: linear-gradient(white, white);
+  mask: linear-gradient(white, white);
+}
