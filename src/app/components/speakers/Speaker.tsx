@@ -16,7 +16,7 @@ const Speaker = ({ speakerInfo }: { speakerInfo: ISpeakerInfo }) => {
           }}
         />
         {/* Black Background */}
-        <div className="absolute inset-[1px] z-0 rounded-md bg-background" />
+        <div className="absolute inset-[1px] z-0 rounded-md bg-background dark:bg-background-dark" />
 
         <Image
           src={imageUrl ?? null}
@@ -31,16 +31,20 @@ const Speaker = ({ speakerInfo }: { speakerInfo: ISpeakerInfo }) => {
         {/* speaker name*/}
         <span className="text-[20px]">{name}</span>
         {/* speaker role (stack)*/}
-        <span className="w-max text-[16px] text-muted-foreground">{role}</span>
+        <span className="w-max text-[16px] text-muted-foreground dark:text-card-foreground-dark">
+          {role}
+        </span>
         {/* speaker company details */}
         <div className="mt-[12px] flex items-center gap-[16px]">
-          <span className="text-[16px] text-muted-foreground">در</span>
+          <span className="text-[16px] text-muted-foreground dark:text-card-foreground-dark">
+            در
+          </span>
           <a
             href={company.websiteLink}
             target="_blank"
             className="flex items-center gap-[4px]"
           >
-            <div className="flex h-[28px] w-[28px] items-center justify-center rounded-[2px] border-[1px] border-[#FFFFFF1A] p-[2px]">
+            <div className="dark:border-dark flex h-[28px] w-[28px] items-center justify-center rounded-[2px] border border-[1px] p-[2px]">
               <Image
                 width={100}
                 height={100}
