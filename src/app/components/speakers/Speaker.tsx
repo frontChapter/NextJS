@@ -44,7 +44,7 @@ const Speaker = ({ speakerInfo }: { speakerInfo: ISpeakerInfo }) => {
             target="_blank"
             className="flex items-center gap-[4px]"
           >
-            <div className="dark:border-dark flex h-[28px] w-[28px] items-center justify-center rounded-[2px] border border-[1px] p-[2px]">
+            <div className="flex h-[28px] w-[28px] items-center justify-center rounded-[2px] border border-[1px] border-border p-[2px] dark:border-border-dark">
               <Image
                 width={100}
                 height={100}
