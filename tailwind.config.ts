@@ -9,11 +9,6 @@ export default {
   ],
   theme: {
     extend: {
-      spacing: {
-        "12": "48px",
-        "20": "80px",
-        "24": "96px",
-      },
       colors: {
         background: {
           DEFAULT: "hsl(0 0% 100%)",
