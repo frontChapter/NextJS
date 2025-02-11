@@ -1,0 +1,34 @@
+{
+  "projectName": "NextJS",
+  "projectOwner": "frontChapter",
+  "files": [
+    "README.md"
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7,
+  "contributors": [
+    {
+      "login": "AmirHosseinKarimi",
+      "name": "Amir Hossein Karimi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/17345129?v=4",
+      "profile": "https://github.com/AmirHosseinKarimi",
+      "contributions": [
+        "projectManagement",
+        "infra",
+        "maintenance",
+        "mentoring",
+        "code"
+      ]
+    },
+    {
+      "login": "fulcain",
+      "name": "Majid Kargar",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52089654?v=4",
+      "profile": "https://majidkargar.ir",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+/**
+*
+*	Name:			DANA Fonts
+*	Version:			3.0
+*	Author:			Moslem Ebrahimi (moslemebrahimi.com)
+*	Created on:		nov 12, 2021
+*	Updated on:		nov 12, 2021
+*	Website:			http://fontiran.com
+*	Copyright:		Commercial/Proprietary Software
+--------------------------------------------------------------------------------------
+فونت دانا یک نرم افزار مالکیتی محسوب می شود. جهت آگاهی از قوانین استفاده از این فونت ها لطفا به وب سایت (فونت ایران دات کام) مراجعه نمایید
+--------------------------------------------------------------------------------------
+DANA fonts are considered a proprietary software. To gain information about the laws regarding the use of these fonts, please visit www.fontiran.com
+--------------------------------------------------------------------------------------
+This set of fonts are used in this project under the license: (R49N6DUE)
+------------------------------------------------------------------------------------- fonts/-
+*
+**/
+
+@font-face {
+  font-family: "DanaVariableFont";
+  src:
+    url("./DanaVF.woff2") format("woff2 supports variations"),
+    url("./DanaVF.woff2") format("woff2-variations"),
+    url("./DanaVF.woff") format("woff");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
