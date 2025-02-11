@@ -1,6 +1,5 @@
-import * as React from "react";
-
 import { cn } from "@/lib/utils";
+import * as React from "react";
 
 const Section = React.forwardRef<
   HTMLElement,
@@ -9,7 +8,7 @@ const Section = React.forwardRef<
   <section
     ref={ref}
     className={cn(
-      "bg-background px-4 py-12 text-foreground sm:py-24 md:py-32",
+      "bg-background px-4 py-20 text-foreground dark:bg-background-dark dark:text-foreground-dark md:px-8",
       className,
     )}
     {...props}
