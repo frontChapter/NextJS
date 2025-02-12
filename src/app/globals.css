@@ -6,7 +6,30 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground dark:bg-background-dark dark:text-foreground-dark;
+  }
+}
+
+@layer components {
+  .glass-1 {
+    @apply border border-border/15 bg-gradient-to-b from-[#27272A]/80 to-[#27272A]/40 dark:border-b-0 dark:border-border/5 dark:border-t-border/10 dark:from-[#27272A]/5 dark:to-[#27272A]/0;
+  }
+
+  .glass-2 {
+    @apply border border-border/15 bg-gradient-to-b from-[#27272A]/100 to-[#27272A]/80 dark:border-b-0 dark:border-border/5 dark:border-t-border/10 dark:from-[#27272A]/10 dark:to-[#27272A]/5;
+  }
+
+  .glass-3 {
+    @apply border border-border/15 bg-gradient-to-b from-[#27272A]/30 to-[#27272A]/20 dark:border-b-0 dark:border-border/5 dark:border-t-border/10;
+  }
+
+  .glass-4 {
+    @apply border border-border/80 border-b-input/90 bg-gradient-to-b from-[#27272A]/60 to-[#27272A]/20 dark:border-b-0 dark:border-border/5 dark:border-t-border/20 dark:from-white/10 dark:to-white/5;
+  }
+
+  .glass-5 {
+    @apply border border-border/100 border-b-input bg-gradient-to-b from-[#27272A]/100 to-[#27272A]/20 dark:border-b-0 dark:border-border/5 dark:border-t-border/20 dark:from-white/15 dark:to-white/5;
   }
 }
