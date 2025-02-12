@@ -13,7 +13,7 @@ import Link from "next/link";
 export default function TopNavigation() {
   return (
     <header className="sticky top-0 z-50 -mb-4 px-4 pb-4">
-      <div className="fade-bottom absolute left-0 h-24 w-full bg-background-dark backdrop-blur-lg"></div>
+      <div className="fade-bottom absolute left-0 h-24 w-full bg-background backdrop-blur-lg dark:bg-background-dark"></div>
       <div className="relative mx-auto max-w-container">
         <NavbarComponent>
           <NavbarLeft>
@@ -25,7 +25,7 @@ export default function TopNavigation() {
               فرانت چپتر
             </Link>
           </NavbarLeft>
-          <NavbarCenter className="hidden h-11 w-96 rounded-[12px] border border-white/10 md:flex">
+          <NavbarCenter className="hidden h-11 w-96 rounded-[12px] border border-[#09090B]/10 dark:border-white/10 md:flex">
             <Navigation />
           </NavbarCenter>
 
