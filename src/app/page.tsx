@@ -1,13 +1,17 @@
+import Sponsors from "./components/Sponsors/Sponsors";
 import TopNavigation from "./components/top-navigation/top-navigation";
-import Sponsers from "./components/Sponsers/Sponsers";
 import FAQ from "@/app/components/FAQ/FAQ";
+import TweetSection from "@/app/components/TweetSection/TweetSection";
+import Speakers from "@/app/components/speakers/Speakers";
 
 export default function Home() {
   return (
     <>
+      <Speakers />
+      <TweetSection />
       <TopNavigation />
       <FAQ />
-      <Sponsers />
+      <Sponsors />
     </>
   );
 }
