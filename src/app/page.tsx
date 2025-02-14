@@ -7,11 +7,11 @@ import Speakers from "@/app/components/speakers/Speakers";
 export default function Home() {
   return (
     <>
-      <Speakers />
-      <TweetSection />
       <TopNavigation />
-      <FAQ />
+      <Speakers />
       <Sponsors />
+      <TweetSection />
+      <FAQ />
     </>
   );
 }
