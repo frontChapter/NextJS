@@ -1,8 +1,8 @@
 import { Section } from "@/components/ui/section";
-import sponsersData from "@/configs/sponsersData";
+import SponsorsData from "@/configs/SponsorsData";
 import Image from "next/image";
 
-export default function Sponsers() {
+export default function Sponsors() {
   return (
     <Section>
       <div className="mx-auto flex max-w-container flex-col items-center gap-14 text-center">
@@ -12,7 +12,7 @@ export default function Sponsers() {
           </h2>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-8">
-          {sponsersData.map((sponser, index) => (
+          {SponsorsData.map((sponser, index) => (
             <div className="flex items-center gap-2" key={index}>
               <div className="border-2 border-gray-800 p-1">
                 <Image

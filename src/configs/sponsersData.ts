@@ -1,6 +1,6 @@
-import { SponsersDataType } from "@/app/components/Sponsers/sponsers";
+import { SponsorsDataType } from "@/app/components/Sponsors/sponsors";
 
-export const sponsersData: SponsersDataType[] = [
+export const SponsorsData: SponsorsDataType[] = [
   {
     title: "دیجی کالا",
     image: "/images/company-logos/digikala.png",
@@ -19,4 +19,4 @@ export const sponsersData: SponsersDataType[] = [
   },
 ];
 
-export default sponsersData;
+export default SponsorsData;
