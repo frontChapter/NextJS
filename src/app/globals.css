@@ -6,7 +6,28 @@
   * {
     @apply border-border;
   }
+
   body {
     @apply bg-background text-foreground dark:bg-background-dark dark:text-foreground-dark;
+  }
+}
+
+@layer components {
+
+  .glass-1 {
+    @apply border border-border/20 border-b-border/5 bg-gradient-to-b from-[#09090B]/5 to-[#09090B]/20 dark:border-b-0 dark:border-border/5 dark:border-t-border/20 dark:from-white/5 dark:to-white/20;
+  }
+
+  .glass-2 {
+    @apply border border-border/20 border-b-border/5 bg-gradient-to-b from-[#09090B]/20 to-[#09090B]/5 dark:border-b-0 dark:border-border/5 dark:border-t-border/20 dark:from-white/20 dark:to-white/5;
+  }
+
+
+  .dark-glass-1 {
+    @apply border border-border/80 border-b-input/90 bg-gradient-to-b from-[#27272A]/60 to-[#27272A]/20 dark:border-b-0 dark:border-border/5 dark:border-t-border/20 dark:from-white/10 dark:to-white/5;
+  }
+
+  .dark-glass-2 {
+    @apply border border-border/100 border-b-input bg-gradient-to-b from-[#27272A]/100 to-[#27272A]/20 dark:border-b-0 dark:border-border/5 dark:border-t-border/20 dark:from-white/15 dark:to-white/5;
   }
 }
