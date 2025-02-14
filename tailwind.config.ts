@@ -220,20 +220,6 @@ export default {
         "dark-glow-lg": "0 0 64px 0 hsl(0 0% 98% / 0.06) inset",
       },
     },
-    animation: {
-      marquee: "marquee var(--duration) linear infinite",
-      "marquee-vertical": "marquee-vertical var(--duration) linear infinite",
-    },
-    keyframes: {
-      marquee: {
-        from: { transform: "translateX(0)" },
-        to: { transform: "translateX(calc(-100% - var(--gap)))" },
-      },
-      "marquee-vertical": {
-        from: { transform: "translateY(0)" },
-        to: { transform: "translateY(calc(-100% - var(--gap)))" },
-      },
-    },
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
