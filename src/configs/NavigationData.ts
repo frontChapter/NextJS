@@ -3,14 +3,14 @@ import { NavigationDataType } from "@/app/components/top-navigation/navigationDa
 export const NavigationData: NavigationDataType[] = [
   {
     content: "شروع",
-    link: "/",
+    link: "#",
   },
   {
     content: "سخنرانان",
-    link: "/",
+    link: "/#speakers",
   },
   {
     content: "خرید بلیط",
-    link: "/",
+    link: "https://frontchapter.ir/product/conf1403/",
   },
 ];

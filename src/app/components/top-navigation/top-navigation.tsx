@@ -32,7 +32,9 @@ export default function TopNavigation() {
           <NavbarRight>
             <Button variant="glow" size="lg" className="flex gap-2">
               <TicketIcon className="h-4 w-4" />
-              <Link href="/">خرید بلیت</Link>
+              <Link href="https://frontchapter.ir/product/conf1403/">
+                خرید بلیت
+              </Link>
             </Button>
           </NavbarRight>
         </NavbarComponent>
