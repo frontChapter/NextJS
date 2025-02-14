@@ -1,5 +1,5 @@
 import { Section } from "@/components/ui/section";
-import SponsorsData from "@/configs/SponsorsData";
+import { SponsorsData } from "@/configs/sponsorsData";
 import Image from "next/image";
 
 export default function Sponsors() {
@@ -12,18 +12,13 @@ export default function Sponsors() {
           </h2>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-8">
-          {SponsorsData.map((sponser, index) => (
+          {SponsorsData.map(({ image, title }, index) => (
             <div className="flex items-center gap-2" key={index}>
               <div className="border-2 border-gray-800 p-1">
-                <Image
-                  src={sponser.image}
-                  width={21}
-                  height={21}
-                  alt={sponser.title}
-                />
+                <Image src={image} width={21} height={21} alt={title} />
               </div>
 
-              <span className="font-bold">{sponser.title}</span>
+              <span className="font-bold">{title}</span>
             </div>
           ))}
         </div>
