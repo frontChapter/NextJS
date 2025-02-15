@@ -28,24 +28,24 @@ const HeroContent = () => {
         حوزه فرانت‌اند
       </p>
       <div className="relative z-10 flex animate-appear flex-wrap justify-center gap-4 opacity-0 delay-300">
-        <Button
-          variant="secondary"
-          size="lg"
-          className="rounded-md text-primary-foreground-dark"
-        >
-          <div className="flex gap-2">
-            <TicketIcon className="h-4 w-4" />
-            <p>ثبت نام در همایش</p>
-          </div>
-        </Button>
-        <div className="overflow-hidden rounded-md">
+        <Link href={"/"}>
           <Button
-            variant="glow"
-            size="lg"
-            className="border-gradient bg-gradient-to-t from-[rgba(250,250,250,0.1)] to-[rgba(250,250,250,0.05)]"
+            variant="secondary"
+            size="default"
+            className="rounded-md text-primary-foreground-dark"
           >
-            <Link href={"/"}>ارتباط با پشتیبانی</Link>
+            <div className="flex items-center gap-2">
+              <TicketIcon className="relative h-4 w-4" />
+              ثبت نام در همایش
+            </div>
           </Button>
+        </Link>
+        <div className="overflow-hidden rounded-md">
+          <Link href={"/"}>
+            <Button variant="glow" size="default">
+              ارتباط با پشتیبانی
+            </Button>
+          </Link>
         </div>
       </div>
     </div>
