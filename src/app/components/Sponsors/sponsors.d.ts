@@ -1,4 +1,4 @@
-export type SponsersDataType = {
+export type SponsorsDataType = {
   title: string;
   image: string;
 };
