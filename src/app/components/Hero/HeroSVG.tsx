@@ -3,7 +3,7 @@ import React from "react";
 const HeroSVG: React.FC = () => {
   return (
     <svg
-      className="animate-appear-zoom opacity-0 delay-1000"
+      className="animate-appear-zoom opacity-0 delay-1000 min-[1650px]:h-auto min-[1650px]:w-full"
       width="2000"
       height="596"
       viewBox="0 0 2000 596"
