@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { linksConfig } from "@/configs/links";
 import { CarrotIcon, TicketIcon } from "lucide-react";
 import Link from "next/link";
 
@@ -28,7 +29,7 @@ const HeroContent = () => {
         حوزه فرانت‌اند
       </p>
       <div className="relative z-10 flex animate-appear flex-wrap justify-center gap-4 opacity-0 delay-300">
-        <Link href={"/"}>
+        <Link href={linksConfig.buyTicket}>
           <Button
             variant="secondary"
             size="default"
@@ -41,7 +42,7 @@ const HeroContent = () => {
           </Button>
         </Link>
         <div className="overflow-hidden rounded-md">
-          <Link href={"/"}>
+          <Link href={linksConfig.support}>
             <Button variant="glow" size="default">
               ارتباط با پشتیبانی
             </Button>
