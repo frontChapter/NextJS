@@ -1,8 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ArrowLeftIcon, TicketIcon } from "lucide-react";
+import { CarrotIcon, TicketIcon } from "lucide-react";
 import Link from "next/link";
-import React from "react";
 
 const HeroContent = () => {
   return (
@@ -11,8 +10,9 @@ const HeroContent = () => {
         variant="outline"
         className="mx-auto mt-20 w-fit animate-appear opacity-0"
       >
-        <div className="flex items-center gap-1 text-muted-foreground-dark">
-          عنوان بج بالای صفحه <ArrowLeftIcon className="h-3 w-3 text-white" />
+        <div className="text-md flex items-center gap-1 p-1 text-muted-foreground-dark">
+          <CarrotIcon className="size-6 text-orange-500" />
+          <span>فرانت چپتر پخت و پز می‌کند</span>
         </div>
       </Badge>
       <h1 className="inline-block animate-appear bg-gradient-to-r from-foreground-dark to-muted-foreground-dark bg-clip-text pb-8 pt-12 text-[32px] font-extrabold text-transparent opacity-0 lg:text-[80px] lg:leading-[80px]">
